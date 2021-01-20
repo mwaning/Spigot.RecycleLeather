@@ -1,0 +1,46 @@
+# RecycleLeather plugin developed by mwaning | https://www.spigotmc.org/resources/recycleleather.86052
+# Custom textures designed by Kari | https://kari-999.tumblr.com
+
+# Whether the custom textures should automatically be loaded when a player joins.
+# Feel free to use the default URL, unless you prefer to host it from somewhere else.
+
+AutoLoad: true
+URL: https://github.com/mwaning/Spigot.RecycleLeather/raw/main/RecycleLeather%201.16.3%2B.zip
+
+# If you want to disable any of the custom recipes, this is the place to do it!
+# Check out the plugin page if you're unsure how these recipes work.
+
+LeatherScrap_to_Leather: true
+Leather_to_LeatherScrap: true
+LeatherBlock_to_Leather: true
+Leather_to_LeatherBlock: true
+Smelt_RottenFlesh: true
+Smelt_LeatherArmor: true
+Smelt_Book: false
+Smelt_ItemFrame: false
+Smelt_LeatherHorseArmor: false
+
+# Even the error and alert messages are customizable!
+# If you want to use double quotes or the ampersand, do the following: \" outputs " and && outputs &
+# 
+# Color and Formatting Codes:
+# &0 = Black     | &1 = Dark Blue     | &2 = Dark Green | &3 Dark Aqua
+# &4 = Dark Red  | &5 = Dark Purple   | &6 = Gold       | &7 = Gray
+# &8 = Dark Gray | &9 = Blue          | &a = Green      | &b = Aqua
+# &c = Red       | &d = Light Purple  | &e = Yellow     | &f = White
+# &l = Bold      | &m = Strikethrough | &n = Underline  | &o = Italic
+# &r = Reset
+
+Errors:
+- "&l&f[RecycleLeather] &r&cThis command requires at least one argument!"
+- "&l&f[RecycleLeather] &r&cThis command only takes up to two arguments!"
+- "&l&f[RecycleLeather] &r&cArgument 2 needs to be an integer!"
+# Uses variable %player%
+- "&l&f[RecycleLeather] &r&c%player% is not online or does not exist!"
+
+Alerts:
+# Uses variables %amount% and %player%
+- "&l&f[RecycleLeather] &r&eGave %amount% Leather Scrap(s) to %player%."
+- "&l&f[RecycleLeather] &r&eGave %amount% Leather Block(s) to %player%."
+- "&l&f[RecycleLeather] &r&eTook %amount% Leather Scrap(s) from %player%."
+- "&l&f[RecycleLeather] &r&eTook %amount% Leather Block(s) from %player%"
